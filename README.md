@@ -1,3 +1,4 @@
+# First Half: A Half-Marathon Training Hub
 
 A half-marathon training hub for first-time runners preparing for a fall race.
 
