@@ -1,4 +1,3 @@
-# opencode-website
 
 A half-marathon training hub for first-time runners preparing for a fall race.
 
