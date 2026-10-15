@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>First Half: A Half-Marathon Training Hub</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>First Half: A Half-Marathon Training Hub</h1>
+</header>
+
+<main>
+  <section class="intro" aria-labelledby="intro-heading">
+    <h2 id="intro-heading" class="visually-hidden">Introduction</h2>
+    <p>Training for your first 13.1? This hub collects the workouts and lessons that got me ready for a fall half marathon. Filter the sample workouts below to see how a training week fits together, then check the gear and fuel tips before your long runs. Check with a doctor before starting any new training plan.</p>
+  </section>
+
+  <section class="training" aria-labelledby="training-heading">
+    <h2 id="training-heading">Training Plan</h2>
+
+    <div class="filters" role="group" aria-label="Filter workouts by type">
+      <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All</button>
+      <button class="filter-btn" type="button" data-filter="easy" aria-pressed="false">Easy</button>
+      <button class="filter-btn" type="button" data-filter="long" aria-pressed="false">Long Run</button>
+      <button class="filter-btn" type="button" data-filter="speed" aria-pressed="false">Speed</button>
+      <button class="filter-btn" type="button" data-filter="rest" aria-pressed="false">Rest</button>
+    </div>
+
+    <p class="status" id="filter-status" aria-live="polite" aria-atomic="true">Showing 8 workouts</p>
+
+    <div class="card-grid" id="workout-grid">
+      <article class="card" data-type="easy">
+        <h3>Easy Run, 3 miles</h3>
+        <p>Conversational pace. If you can't talk, slow down.</p>
+      </article>
+      <article class="card" data-type="easy">
+        <h3>Recovery Jog, 2 miles</h3>
+        <p>The day after a long run, keep it short and relaxed.</p>
+      </article>
+      <article class="card" data-type="long">
+        <h3>Long Run, 6 miles</h3>
+        <p>Builds endurance. Practice your race-day fuel here.</p>
+      </article>
+      <article class="card" data-type="long">
+        <h3>Long Run, 10 miles</h3>
+        <p>Your peak long run, about 2–3 weeks before race day.</p>
+      </article>
+      <article class="card" data-type="speed">
+        <h3>Intervals, 6 × 400m</h3>
+        <p>Run hard for 400m, walk or jog 90 seconds between.</p>
+      </article>
+      <article class="card" data-type="speed">
+        <h3>Tempo Run, 4 miles</h3>
+        <p>Comfortably hard, about your goal race pace.</p>
+      </article>
+      <article class="card" data-type="rest">
+        <h3>Rest Day</h3>
+        <p>Rest is when your body adapts. Don't skip it.</p>
+      </article>
+      <article class="card" data-type="rest">
+        <h3>Cross-Train, 30 min</h3>
+        <p>Bike, swim, or yoga to build fitness without impact.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="gear" aria-labelledby="gear-heading">
+    <h2 id="gear-heading">Gear &amp; Fuel Tips</h2>
+    <ul class="tips">
+      <li>Get fitted for running shoes at a running store and replace them every 300–500 miles.</li>
+      <li>Eat a familiar, carb-based snack 1–2 hours before long runs, like toast with peanut butter or a banana.</li>
+      <li>For runs over 75 minutes, practice taking an energy gel or chews every 30–45 minutes.</li>
+      <li>Nothing new on race day: no new shoes, outfit, or food.</li>
+      <li>Lay out your race kit the night before, including bib, pins, and watch.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Made for a class project. Not medical advice.</p>
+</footer>
+
+<script src="./script.js" defer></script>
+</body>
+</html>
